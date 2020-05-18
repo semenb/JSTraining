@@ -1,4 +1,4 @@
-function User(obj) {
+function User({ name, age, followers }) {
   this.name = obj.name;
   this.age = obj.age;
   this.followers = obj.followers;
