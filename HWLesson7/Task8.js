@@ -8,7 +8,7 @@ render.addEventListener('click', () => {
   const count = divBox.children.length;
   for (let i = 0; i < amount.value; i += 1) {
     const div = document.createElement('div');
-    div.style.width = (30 + 10 * i + 10 * count).toString().concat('px');
+    div.style.width = `${30 + 10 * i + 10 * count}px`;
     div.style.height = (30 + 10 * i + 10 * count).toString().concat('px');
     div.style.backgroundColor =
       'rgb(' +
